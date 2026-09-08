@@ -142,9 +142,9 @@ Steps 1 to 5 and step 7, without the bias correction, are what most applied work
 
 # An example
 
-![Aggregate radiance of raw and cleaned nighttime lights for Mumbai, January 2014 to January 2018.[]{label="exampledata"}](raw_vs_cleaned.png)
+![Aggregate radiance of raw and cleaned nighttime lights for Mumbai, January 2014 to January 2018.\label{fig:exampledata}](raw_vs_cleaned.png)
 
-\autoref{exampledata} shows the aggregate radiance of raw and cleaned NL of Mumbai. The notebook that produced this data can be found at <https://github.com/xKDR/NighttimeLights.jl>.
+\autoref{fig:exampledata} shows the aggregate radiance of raw and cleaned NL of Mumbai. The notebook that produced this data can be found at [here](https://github.com/xKDR/foundations-ntl/blob/master/SRC/replication.ipynb).
 On the $y$ axis, the lines show the aggregate raw and cleaned NL measured in $nW\ cm^{-2}\ sr^{-1}$. The $x$ axis shows time measured in months from January 2014 to January 2018. Note the bias during the monsoon months (e.g. July), which is significantly reduced in the cleaned data.
 
 | Statistic       |    Raw | Cleaned |
